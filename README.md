@@ -75,7 +75,7 @@ make -C LINUX=1
 Compile 64 windows executable :
 ```
 git clone https://github.com/B4rabbas/SRB2.git
-cd Sonic-Kart
+cd SBR2
 export LIBGME_CFLAGS=
 export LIBGME_LDFLAGS=-lgme
 set PREFIX=i686-w64-mingw32
