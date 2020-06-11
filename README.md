@@ -1,6 +1,21 @@
 # Build Sonic Kart from Ubuntu 64bit from original repo
+The dependencies
 ```
-sudo apt install -y libgme-dev libsdl2-mixer-dev libsdl2-dev zlib1g-dev libpng-dev nasm build-essential git ; git clone https://github.com/STJr/Kart-Public.git ; cd Kart-Public ; export LIBGME_CFLAGS= ; export LIBGME_LDFLAGS=-lgme ; make -C src/ LINUX64=1
+sudo apt install -y libgme-dev libsdl2-mixer-dev libsdl2-dev zlib1g-dev libpng-dev nasm build-essential git 
+```
+Getting source code
+```
+git clone https://github.com/STJr/Kart-Public.git
+```
+Locate downloaded code files path
+```
+cd Kart-Public
+```
+Compiling
+```
+export LIBGME_CFLAGS=
+export LIBGME_LDFLAGS=-lgme
+make -C src/ LINUX64=1
 ```
 
 # Build Sonic Robo Blast 2 64bit from Ubuntu 64bit
