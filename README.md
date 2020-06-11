@@ -15,7 +15,8 @@ Compiling
 ```
 export LIBGME_CFLAGS=
 export LIBGME_LDFLAGS=-lgme
-make -C src/ LINUX64=1
+set CC=gcc -m32 
+make -C LINUX=1 
 ```
 
 # Build Sonic Robo Blast 2 64bit from Ubuntu 64bit
